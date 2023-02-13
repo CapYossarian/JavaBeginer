@@ -14,5 +14,6 @@ public class Break2 {
         }
         System.out.println("Пока!!!");
         System.out.println();
+        System.out.println("OK");
     }
 }
