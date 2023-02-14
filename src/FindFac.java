@@ -12,5 +12,6 @@ public class FindFac {
         }
         System.out.println("Итерпций "+itcount);
         System.out.println();
+        System.out.println();
     }
 }
