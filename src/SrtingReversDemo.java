@@ -1,15 +1,15 @@
 class StringRevers{
     private String s;
-    private String strout = new String();
+    private String strout;// Считается излишним -->  = new String();
     StringRevers(String st){
-        s= new String(st);
+        s= st; // redundant --> new String(st);
     }
     int getLenght(){
       return s.length();
     }
     String Revers(int i){
         if (i>0) strout=s.charAt(i)+Revers(i-1);
-        else strout=strout+s.charAt(i);
+        else return String.valueOf(s.charAt(i));
         return strout;
     }
 }
