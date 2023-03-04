@@ -15,6 +15,7 @@ class StringRevers{
 }
 public class SrtingReversDemo {
     public static void main(String[] args) {
+        System.out.println("abcdefg");
         StringRevers s = new StringRevers("abcdefg");
         System.out.println(s.Revers(s.getLenght()-1));
     }
