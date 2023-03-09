@@ -16,7 +16,7 @@ abstract class TwoDShape{
     //конструктор одинаковые значения
     TwoDShape(double w, String n){
         width=height=w;
-        name = n;
+        name=n;
     }
     //один на основе другого
     TwoDShape(TwoDShape s){
