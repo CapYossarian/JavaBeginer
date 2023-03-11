@@ -1,20 +1,5 @@
 package bookpack;
-class Book{
-    private String title;
-    private String author;
-    private int pubDate;
-    Book(String t, String a, int p){
-        title=t;
-        author=a;
-        pubDate=p;
-    }
-    void showBook(){
-        System.out.println("title:"+title);
-        System.out.println("author:"+author);
-        System.out.println("pubDate:"+pubDate);
 
-    }
-}
 public class BookDemo {
     public static void main(String[] args) {
         Book[] books = new Book[5];
