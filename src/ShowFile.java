@@ -4,7 +4,7 @@ public class ShowFile {
         int i;
         //Проверка входного параметра строки запуска
         if (args.length!=1){
-            System.out.println("Параметры запуска ShowFile <ИмяФайла>");
+            System.out.println("Параметры запуска ShowFile <ИмяФайла>"); //D:\Temp\IOFile.txt
             return;
         }
         //try с ресурсами
